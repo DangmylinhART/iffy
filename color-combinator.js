@@ -1,5 +1,6 @@
 /******************
  * YOUR CODE HERE *
+
  ******************/
 
 
@@ -16,15 +17,15 @@ function colorCombinator(color1, color2) {
   }
 
   let answer = '';
-  if (color1 === 'red' && color2 === 'yellow') {
+  if (color1 === 'red' && color2 === 'yellow' || color2 === 'red' && color1 === 'yellow' ) {
     answer = 'orange';
   }
 
-  if (color1 === 'red' && color2 === 'blue') {
+  if (color1 === 'red' && color2 === 'blue' || color2 === 'red' && color1 === 'blue') {
     answer = 'purple';
   }
 
-  if (color1 === 'yellow' && color2 === 'blue') {
+  if (color1 === 'yellow' && color2 === 'blue' || color2 === 'yellow' && color1 === 'blue') {
     answer = 'green';
   }
 
