@@ -4,7 +4,6 @@ const colorDeconstructor = require('./color-deconstructor.js')
 
 // get Input
 const userInput = getInput(0) + getInput(1)
-
 const color1 = getInput(0);
 const color2= getInput(1);
 
